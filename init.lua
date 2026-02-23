@@ -436,6 +436,12 @@ require('lazy').setup({
         -- pickers = {}
         extensions = {
           ['ui-select'] = { require('telescope.themes').get_dropdown() },
+          project = {
+            base_dirs = {
+              { path = '~/Tools/Github', max_depth = 2 },
+              { path = '~/Tools/Gitlab', max_depth = 2 },
+            },
+          },
         },
       }
 
