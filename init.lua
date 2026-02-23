@@ -439,7 +439,6 @@ require('lazy').setup({
           project = {
             base_dirs = {
               { path = '~/Tools/Github', max_depth = 2 },
-              { path = '~/Tools/Gitlab', max_depth = 2 },
             },
           },
         },
