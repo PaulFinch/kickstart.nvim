@@ -1,5 +1,19 @@
 # kickstart.nvim
 
+## Papertreet Custom Config
+
+- Fix bug (lua_ls -> lua-language-server)
+- Enable neo-tree (keymap: '-')
+- Customize indent
+- Add noice plugin
+- Add notify plugin
+- Add Telescope Project plugin
+- Add clang LSP
+- Enable Ghost Text
+- Change blink-cmp to Super-tab mode
+- Change theme (Monokai Pro Machine)
+- Add merge script
+
 ## Introduction
 
 A starting point for Neovim that is:
