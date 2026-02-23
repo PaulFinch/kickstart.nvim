@@ -10,6 +10,7 @@
 - Add Telescope Project plugin
 - Add clang LSP
 - Enable Ghost Text
+- Enable Nerd Font
 - Change blink-cmp to Super-tab mode
 - Change theme (Monokai Pro Machine)
 - Add merge script
