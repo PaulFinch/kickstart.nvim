@@ -657,8 +657,11 @@ require('lazy').setup({
         bashls = {},
         clangd = {},
         gopls = {},
+        jsonls = {},
+        marksman = {},
         pyright = {},
         rust_analyzer = {},
+        yamlls = {},
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
         --    https://github.com/pmizio/typescript-tools.nvim
@@ -707,10 +710,13 @@ require('lazy').setup({
         'bash-language-server',
         'clangd',
         'gopls',
+        'json-lsp',
         'lua-language-server', -- Lua Language server
+        'marksman',
         'pyright',
         'rust-analyzer',
         'stylua', -- Used to format Lua code
+        'yaml-language-server',
         -- You can add other tools here that you want Mason to install
       }
 
