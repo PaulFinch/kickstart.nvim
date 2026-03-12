@@ -654,10 +654,11 @@ require('lazy').setup({
       --  See `:help lsp-config` for information about keys and how to configure
       ---@type table<string, vim.lsp.Config>
       local servers = {
+        bashls = {},
         clangd = {},
-        -- gopls = {},
-        -- pyright = {},
-        -- rust_analyzer = {},
+        gopls = {},
+        pyright = {},
+        rust_analyzer = {},
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
         --    https://github.com/pmizio/typescript-tools.nvim
@@ -703,8 +704,12 @@ require('lazy').setup({
       --
       -- You can press `g?` for help in this menu.
       local ensure_installed = {
+        'bash-language-server',
         'clangd',
+        'gopls',
         'lua-language-server', -- Lua Language server
+        'pyright',
+        'rust-analyzer',
         'stylua', -- Used to format Lua code
         -- You can add other tools here that you want Mason to install
       }

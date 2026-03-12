@@ -8,7 +8,7 @@
 - Add noice plugin
 - Add notify plugin
 - Add Telescope Project plugin
-- Add clang LSP
+- Add LSP: clangd, bashls, gopls, rust_analyzer, pyright
 - Enable Ghost Text
 - Enable Nerd Font
 - Change blink-cmp to Super-tab mode
