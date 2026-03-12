@@ -10,6 +10,7 @@
 - Add Telescope Project plugin
 - Add LSP: clangd, bashls, gopls, rust_analyzer, pyright, marksman, json, yaml
 - Enable Ghost Text
+- AutoShow Documentation
 - Enable Nerd Font
 - Change blink-cmp to Super-tab mode
 - Change theme (Monokai Pro Machine)
