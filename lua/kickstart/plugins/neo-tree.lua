@@ -11,7 +11,7 @@ return {
     'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
     'MunifTanjim/nui.nvim',
   },
-  cmd = 'Neotree',
+  lazy = false,
   keys = {
     { '-', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
@@ -19,9 +19,6 @@ return {
   ---@type neotree.Config
   opts = {
     filesystem = {
-      filtered_items = {
-        hide_dotfiles = false,
-      },
       window = {
         mappings = {
           ['-'] = 'close_window',
