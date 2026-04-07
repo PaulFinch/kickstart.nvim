@@ -3,6 +3,9 @@
 return {
   'nvim-neo-tree/neo-tree.nvim',
   cmd = 'Neotree',
+  dependencies = {
+    'MunifTanjim/nui.nvim',
+  },
   keys = {
     { '-', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
