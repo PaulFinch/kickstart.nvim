@@ -5,8 +5,6 @@
 - Fix bug (lua_ls -> lua-language-server)
 - Enable neo-tree (keymap: '-')
 - Customize indent
-- Add noice plugin
-- Add notify plugin
 - Add Telescope Project plugin
 - Add LSP: clangd, bashls, gopls, rust_analyzer, pyright, marksman, json, yaml
 - Enable Ghost Text
