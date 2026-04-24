@@ -1,6 +1,6 @@
 # kickstart.nvim
 
-## Papertreet Custom Config
+## PaulFinch Custom Config
 
 - Fix bug (lua_ls -> lua-language-server)
 - Enable neo-tree (keymap: '-')
